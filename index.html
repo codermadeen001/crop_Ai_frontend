@@ -600,7 +600,7 @@
                 const formData = new FormData();
                 formData.append('image', currentFile);
                 //('http://127.0.0.1:8000/api/', {
-                const serverResponse = await fetch('/api/', {
+                const serverResponse = await fetch('https://maize-doc-pvk4.onrender.com/api/', {
                     method: 'POST',
                     body: formData
                 });
